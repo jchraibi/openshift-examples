@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.1
 
 RUN apk --update add socat curl busybox-extras
 RUN mkdir /www/ && chmod 770 /www/
