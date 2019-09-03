@@ -1,5 +1,5 @@
 # Local build & push 
-# edit v2
+# edit v3
 ```
 sudo podman build --squash -t simple-http-server:latest .
 sudo skopeo inspect containers-storage:localhost/simple-http-server:latest
